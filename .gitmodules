@@ -1,0 +1,6 @@
+[submodule "sketch_epaper/epaper"]
+	path = sketch_epaper/epaper
+	url = ../waveshare-9.7inch-e-paper-hat
+[submodule "sketch_epaper/mcufont"]
+	path = sketch_epaper/mcufont
+	url = git@github.com:mcufont/mcufont.git
