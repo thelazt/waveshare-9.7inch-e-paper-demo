@@ -15,7 +15,7 @@ Load sketch in Arduino and run.
 
 (Ugly symlinks in sketch directory due to the lack of real folder support in Arduino)
 
-![Demo setup][demo.jpg]
+![Demo setup](demo.jpg)
 
 ## Add custom Fonts
 
