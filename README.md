@@ -17,6 +17,20 @@ Load sketch in Arduino and run.
 
 ![Demo setup](demo.jpg)
 
+### Example Wiring
+
+This example was tested using a [DFRobot FireBeetle ESP32](https://wiki.dfrobot.com/FireBeetle_ESP32_IOT_Microcontroller(V3.0)__Supports_Wi-Fi_&_Bluetooth__SKU__DFR0478) connected to the [HAT via SPI (see "Pinouts")](https://www.waveshare.com/9.7inch-e-paper-hat.htm)
+
+    [ESP32] --- [ePaper HAT]
+    VCC     --- 5V   (red)
+    GND     --- GND  (black)
+    GPIO 19 --- MISO (blue)
+    GPIO 23 --- MOSI (yellow)
+    GPIO 18 --- SCK  (orange)
+    GPIO 25 --- CS   (green)
+    GPIO 26 --- RST  (white)
+    GPIO 27 --- HRDY (purple)
+
 ## Add custom Fonts
 
 Add required fonts (in [TrueType Format](https://en.wikipedia.org/wiki/TTF)) into folder `fonts`.
